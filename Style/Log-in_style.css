@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+	background-color:#FFDAB9;
+  }
+  h2{
+    font-family: arial;
+  }
+  form {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #1AB9EB;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+	text-align: left;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  input[type="submit"]{
+    background-color: #funchsia;
+    color: funchsia;
+    cursor: pointer;
+  }
+   #Logo{
+    height: 90px;
+    width: 150px;
+	}
