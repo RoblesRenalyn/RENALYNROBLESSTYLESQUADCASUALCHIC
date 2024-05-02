@@ -1,11 +1,16 @@
 .header {
-    background-color: lightblue;
+    background-color: #1AB9EB;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
 }
-
+#arrow{
+	right:200px;
+	height: 50px;
+	width:50px;
+	text-decoration:none;
+}
 .header > .logo {
     object-fit: contain;
     height: 60px;
@@ -35,7 +40,7 @@
 
 body {
     font-family: "Courier New";
-    background-color:#D8B56E;
+    background-color:lightblue;
     }
 
 .openbtn {
@@ -169,11 +174,11 @@ body {
     grid-row-end: 5;
     background-color:  #efe7dd;
     padding: 10px;
-    border: 3px solid saddlebrown;
+    border: 3px solid #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-	background-color: #D8B56E;
+	background-color: #1AB9EB;
 	color:#000000;
 }
 
@@ -220,10 +225,10 @@ body {
     grid-column-end: 3; 
     grid-row-start: 1; 
     grid-row-end: 3;
-    background-color: #290C0C;
-	color:#D8B56E;
+    background-color:#1AB9EB;
+	color:#fff;
     padding: 10px;
-    border: 3px solid saddlebrown;
+    border: 3px solid #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -481,11 +486,11 @@ body {
 }
 
 .Money-In {
-    color:#D8B56E;
+    color:#1AB9EB;
 }
 
 .Money-InBold {
-    color:#290C0C;
+    color:lightblue;
     font-weight: 600;
 }
 
